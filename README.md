@@ -1,15 +1,22 @@
-# Site de Mathis Wensing
+# Site personnel de Mathis Wensing
 
-Ce depot contient le site personnel de Mathis Wensing, realise et personnalise par Mathis Wensing.
+[![Open Source](https://img.shields.io/badge/Open%20Source-MIT-green?logo=github)](LICENSE)
 
-## Credits
+Ce dépôt contient le site personnel de Mathis Wensing, développé et personnalisé par Mathis Wensing.
 
-Le design de base utilise le theme Spectral, cree par HTML5 UP (@ajlkn). Le theme est distribue sous la licence Creative Commons Attribution 3.0 (CCA 3.0) : https://html5up.net/license.
+## Présentation
 
-L'attribution du theme est documentee ici ; les fichiers d'origine peuvent aussi conserver leurs notices de provenance.
+Ce projet est un site vitrine personnel, publié en HTML, CSS et JavaScript, avec un thème de départ inspiré du template Spectral d'HTML5 UP.
 
-Font Awesome Free 5.15.4 est egalement utilise : https://fontawesome.com/license/free. Les icones sont sous CC BY 4.0, les polices sous SIL OFL 1.1 et le code sous MIT.
+## Crédits
 
-## Licence du depot
+- Le design de base utilise le thème Spectral, créé par HTML5 UP (@ajlkn).
+- Le thème est distribué sous licence Creative Commons Attribution 3.0 (CC BY 3.0) : https://html5up.net/license
+- Font Awesome Free 5.15.4 est également utilisé : https://fontawesome.com/license/free
+- Les icônes sont sous CC BY 4.0, les polices sous SIL OFL 1.1 et le code sous MIT.
 
-Aucune licence generale n'est ajoutee pour le moment. Les fichiers de bibliotheques tierces conservent leurs propres mentions de licence.
+## Licence
+
+Ce projet est publié sous licence MIT.
+
+La licence complète est disponible dans le fichier [LICENSE](LICENSE).
