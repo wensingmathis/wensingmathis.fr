@@ -1,0 +1,90 @@
+/* Styles généraux */
+body {
+    font-family: "Michroma", sans-serif;
+    color: white;
+    background-color: background: #020024;
+background: -webkit-linear-gradient(181deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(186, 4, 196, 1) 71%, rgba(0, 212, 255, 1) 100%);
+background: -moz-linear-gradient(181deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(186, 4, 196, 1) 71%, rgba(0, 212, 255, 1) 100%);
+background: linear-gradient(181deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(186, 4, 196, 1) 71%, rgba(0, 212, 255, 1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#00D4FF", GradientType=0);;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #229fa8;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header h1,
+header p {
+    font-family: "Climate Crisis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "YEAR" 1979;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    border-bottom: 1px solid #18169b;
+    padding-bottom: 5px;
+}
+
+section {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #8F9EFF;
+    border-radius: 5px;
+    background: #0F2027;
+background: -webkit-linear-gradient(168deg, rgba(15, 32, 39, 1) 0%, rgba(32, 58, 67, 1) 35%, rgba(44, 83, 100, 1) 100%);
+background: -moz-linear-gradient(168deg, rgba(15, 32, 39, 1) 0%, rgba(32, 58, 67, 1) 35%, rgba(44, 83, 100, 1) 100%);
+background: linear-gradient(168deg, rgba(15, 32, 39, 1) 0%, rgba(32, 58, 67, 1) 35%, rgba(44, 83, 100, 1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0F2027", endColorstr="#2C5364", GradientType=0);
+    transition: background-color 0.3s ease;
+}
+
+section:hover {
+   background: #020024;
+background: -webkit-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+background: -moz-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#00D4FF", GradientType=1);
+}
+
+h2 {
+    margin-top: 10px; /* Réduit l'espace entre le texte et le haut de la bordure */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Compétences avec barres proportionnelles */
+#competences ul {
+    padding: 0;
+}
+
+#competences li {
+    margin-bottom: 15px;
+}
+
+
+/* Contact */
+#contact p {
+    margin: 5px 0;
+}
+

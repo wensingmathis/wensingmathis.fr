@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Mathis Wensing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Michroma&display=swap" rel="stylesheet">
+    <!-- Liaison vers votre fichier style.css -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        header {
+            position: relative;
+            padding-top: 64px;
+        }
+
+        .cv-menu {
+            position: absolute;
+            top: 12px;
+            right: 16px;
+            z-index: 10;
+            text-align: left;
+        }
+
+        .cv-menu summary {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            list-style: none;
+        }
+
+        .cv-menu summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .cv-menu summary:focus-visible,
+        .cv-menu a:focus-visible {
+            outline: 2px solid currentColor;
+            outline-offset: 4px;
+        }
+
+        .burger-icon,
+        .burger-icon::before,
+        .burger-icon::after {
+            display: block;
+            width: 20px;
+            height: 2px;
+            background: currentColor;
+        }
+
+        .burger-icon {
+            position: relative;
+        }
+
+        .burger-icon::before,
+        .burger-icon::after {
+            position: absolute;
+            left: 0;
+            content: "";
+        }
+
+        .burger-icon::before {
+            top: -6px;
+        }
+
+        .burger-icon::after {
+            top: 6px;
+        }
+
+        .cv-menu details[open] > div {
+            position: absolute;
+            top: calc(100% + 12px);
+            right: 0;
+            display: grid;
+            min-width: 150px;
+            padding: 8px 12px;
+            border: 1px solid currentColor;
+            border-radius: 4px;
+            background: #0F2027;
+        }
+
+        .cv-menu a {
+            padding: 8px 4px;
+            color: inherit;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="cv-menu" aria-label="Navigation principale">
+            <details>
+                <summary><span class="burger-icon" aria-hidden="true"></span>Menu</summary>
+                <div>
+                    <a href="accueil.html">Accueil</a>
+                    <a href="cv.html" aria-current="page">Mon CV</a>
+                </div>
+            </details>
+        </nav>
+        <h1>Mathis Wensing</h1>
+        <p>CV - Cybersécurité, Informatique et Réseaux</p>
+    </header>
+
+    <section id="formation">
+        <h2>Formation</h2>
+        <ul>
+            <li>
+                <h3>Bac Pro CIEL (Cybersécurité, Informatique et Réseaux, Électronique)</h3>
+                <p>Lycée Charles Tellier, Condé-en-Normandie — Depuis 2024 (actuellement en terminal)</p>
+            </li>
+            <li>
+                <h3>Brevet des collèges</h3>
+                <p>Collège du Val de Vire — Obtenu en 2023</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Expérience professionnelle</h2>
+        <ul>
+            <li>
+                <h3>Poste 1</h3>
+                <p></p>ARPAR Media <br>
+                Du 8 juin au 3 juillet 2026</p>
+                <p>- Création et gestion d’une base de données sur les motos
+-Recherche et récupération de données sur GitHub
+-Recherche d’informations pour compléter et améliorer la base de données
+-Réponse aux demandes et aux besoins de l’entreprise
+-Adaptation des données afin d’obtenir une base la plus complète et précise possible</p>
+            </li>
+            <li>
+                <h3>Poste 2</h3>
+                <p>ADMR, Saint-Lô — Job d’été, <br>
+                Du 26 juil. au 28 août 2026</p>
+                <p>Renfort auprès de l’équipe informatique
+- Participation à la migration d’un nouveau parc informatique
+- Aide et accompagnement des utilisateurs</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="competences">
+        <h2>Compétences</h2>
+        <ul>
+            <li>Initiation aux réseaux informatiques et systèmes</li>
+            <li>Bases en cybersécurité (sécurité des données, mots de passe)</li>
+            <li>Utilisation des logiciels bureautiques (Word, Excel)</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email : wensingmathis@gmail.com</p>
+        <p>GitHub : <a href="https://github.com/wensingmathis" target="_blank" rel="noopener noreferrer">github.com/wensingmathis</a></p>
+        <p>Téléphone : 06 59 09 51 55</p>
+        <p>4 Avenue de Franceville<br>
+        14500 Vire Normandie</p>
+    </section>
+
+</body>
+</html>
